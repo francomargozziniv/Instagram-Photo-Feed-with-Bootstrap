@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a>
+        <img
+          src="https://lh3.googleusercontent.com/Ma1Lj_bDS873SbYcrHIGqJ44Z3pCDUUVtYqdu_cIzlnZFn68r6FJFNxwuD9Af3rj_ywMVQ=s170">
+      </a>
+      <div class="d-flex">
+        <div>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Create a new post
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <div class="modal-body">
+                  <textarea class="form-control border-secondary"></textarea>
+                  <br>
+                  <span class="border rounded p-1"><i class="fas fa-camera"></i></span>
+                  <span class="border rounded p-1"><i class="fas fa-map-marker-alt"></i></i></span>
+                </div>
+
+
+
+                <div class="modal-footer">
+
+                  <br>
+
+
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                  <button type="button" class="btn btn-success">Publish</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dropdown dropstart">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <span> <i class="fas fa-cog"></i></span>
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Log Out</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="btn btn-light bg-secondary text-white" id="pills-home-tab" data-bs-toggle="pill"
+        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i
+          class="fas fa-th"></i></button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="btn btn-light bg-secondary text-white" id="pills-profile-tab" data-bs-toggle="pill"
+        data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i
+          class="fas fa-stop"></i></button>
+    </li>
+  </ul>
+
+
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+      <div class="container-fluid">
+        <div class="row m-3">
+          <div class="col-4 p-1">
+            <img src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small" class="img-fluid"
+              alt="Responsive image">
+          </div>
+          <div class="col-4 p-1">
+            <img class="img-fluid" src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small">
+          </div>
+          <div class="col-4 p-1">
+            <img class="img-fluid" src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small">
+          </div>
+          <div class="col-4 p-1">
+            <img class="img-fluid" src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small">
+          </div>
+          <div class="col-4 p-1">
+            <img class="img-fluid" src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small">
+          </div>
+          <div class="col-4 p-1">
+            <img class="img-fluid" src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small">
+          </div>
+          <div class="col-4 p-1">
+            <img class="img-fluid" src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small">
+          </div>
+          <div class="col-4 p-1">
+            <img class="img-fluid" src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small">
+          </div>
+          <div class="col-4 p-1">
+            <img class="img-fluid" src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small">
+          </div>
+          <div class="col-4 p-1">
+            <img class="img-fluid" src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small">
+          </div>
+          <div class="col-4 p-1">
+            <img class="img-fluid" src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small">
+          </div>
+          <div class="col-4 p-1">
+            <img class="img-fluid" src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small">
+          </div>
+          <div class="col-4 p-1">
+            <img class="img-fluid" src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small">
+          </div>
+          <div class="col-4 p-1">
+            <img class="img-fluid" src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small">
+          </div>
+          <div class="col-4 p-1">
+            <img class="img-fluid" src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small">
+          </div>
+          <div class="col-4 p-1">
+            <img class="img-fluid" src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small">
+          </div>
+          <div class="col-4 p-1">
+            <img class="img-fluid" src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small">
+          </div>
+          <div class="col-4 p-1">
+            <img class="img-fluid" src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="tab-pane fade d-flex flex-column justify-content-center align-items-center bg-secondary"
+      style="--bs-bg-opacity: .5;" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+
+      <div class="card p-1" style="width: 40%;">
+        <div class="card-header d-flex justify-content-between">
+          <h4>My first photo</h4>
+          <h5 class="text-secondary">12/14</h5>
+        </div>
+        <img src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title">23 likes</h6>
+          <p class="card-text">This is my first photo of the feed. this is a multi line comment for testing purposes. I
+            am learning to code with #BreatheCode</p>
+
+
+        </div>
+        <div class="card-footer d-flex justify-content-between text-secondary">
+          <div><i class="far fa-heart"></i> &nbsp &nbsp &nbsp<span>Comment...</span></div><i
+            class="fas fa-ellipsis-v"></i>
+        </div>
+      </div>
+      <br>
+
+      <div class="card p-1" style="width: 40%;">
+        <div class="card-header d-flex justify-content-between">
+          <h4>My first photo</h4>
+          <h5 class="text-secondary">12/14</h5>
+        </div>
+        <img src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title">23 likes</h6>
+          <p class="card-text">This is my first photo of the feed. this is a multi line comment for testing purposes. I
+            am learning to code with #BreatheCode</p>
+
+
+        </div>
+        <div class="card-footer d-flex justify-content-between text-secondary">
+          <div><i class="far fa-heart"></i> &nbsp &nbsp &nbsp<span>Comment...</span></div><i
+            class="fas fa-ellipsis-v"></i>
+        </div>
+      </div>
+      <br>
+
+      <div class="card p-1" style="width: 40%;">
+        <div class="card-header d-flex justify-content-between">
+          <h4>My first photo</h4>
+          <h5 class="text-secondary">12/14</h5>
+        </div>
+        <img src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title">23 likes</h6>
+          <p class="card-text">This is my first photo of the feed. this is a multi line comment for testing purposes. I
+            am learning to code with #BreatheCode</p>
+
+
+        </div>
+        <div class="card-footer d-flex justify-content-between text-secondary">
+          <div><i class="far fa-heart"></i> &nbsp &nbsp &nbsp<span>Comment...</span></div><i
+            class="fas fa-ellipsis-v"></i>
+        </div>
+      </div>
+      <br>
+
+      <div class="card p-1" style="width: 40%;">
+        <div class="card-header d-flex justify-content-between">
+          <h4>My first photo</h4>
+          <h5 class="text-secondary">12/14</h5>
+        </div>
+        <img src="https://pbs.twimg.com/media/E7az60dXMA4JJuo?format=jpg&name=small" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title">23 likes</h6>
+          <p class="card-text">This is my first photo of the feed. this is a multi line comment for testing purposes. I
+            am learning to code with #BreatheCode</p>
+
+
+        </div>
+        <div class="card-footer d-flex justify-content-between text-secondary">
+          <div><i class="far fa-heart"></i> &nbsp &nbsp &nbsp<span>Comment...</span></div><i
+            class="fas fa-ellipsis-v"></i>
+        </div>
+      </div>
+      <br>
+
+
+
+    </div>
+
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/35dc494410.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
